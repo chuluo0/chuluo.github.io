@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html xmlns="//www.w3.org/1999/xhtml" xml:lang="zh" lang="zh">
+  <head>
+    <title>
+    knwlde | 创业项目网站
+    </title>
+    <script>
+    Object.defineProperty(window, 'handledomoocRPC', {
+    enumerable: false,
+    configurable: false,
+    writable: false,
+    value: null
+     });
+    </script>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <!-- 网站头像 -->
+    <link rel="shortcut icon" href="img/logo1.png" />
+    <!-- 元数据 -->
+    <meta http-equiv="x-dns-prefetch-control" content="on"/>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta itemprop="name" content="knwlde | 创业项目网站"/>
+    <link rel="dns-prefetch" href="//knwlde.cn"/>
+    <link rel="canonical" href="https://knwlde.cn"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="Cache-Control" content="no-cache" max-age="0"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Expires" content="0"/>
+    <meta name="author" content="knwlde"/>
+    <meta name="version" content="1.0"/>
+    <meta name="keywords" content="knwlde,knwlde知识,创业,创业项目,在线教育创业,融资网站,项目投递网站,星祁教育科技,星祁,星祁教育,科技,教育,学习网站,学习平台,电子课本,在线题库,远程教学软件,互动白板,在线模拟实验,学习管理系统（LMS）,个性化学习,在线辅导,虚拟实验室,教育技术,职业培训,语言学习,编程教育,学前教育,继续教育,考试准备,教育信息化,终身学习,远程教育认证,教育技术创新,学习">
+    <meta name="description" content="knwlde是一个优质的在线教育平台，目前knwlde是一个创业项目创始人正在找种子轮的投资，这个网站的作用就是向各位投资者展示我的项目，期待您的投资，如果你也是一个创业者或想和我一起创业的可以联系我，我会考虑你们的加入">
+    <meta name="author" content="knwlde">
+    <meta name="copyright" content="knwlde">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta itemprop="name" content="knwlde | 创业项目网站"/>
+    <!-- 滑动插件 -->
+    <link rel="stylesheet" href="vendor/swiper/swiper-bundle.min.css">
+    <!-- 模态视频 -->
+    <link rel="stylesheet" href="vendor/modal-video/css/modal-video.min.css">
+    <!-- 谷歌字体 -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,700&amp;font-display=swap">
+    <!-- 主题样式 -->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- 自定义样式表 - 用于您的更改 -->
+    <link rel="stylesheet" href="css/custom.css">
+  </head>
+  <body>
+    <!-- 导航栏 -->
+    <header class="header fixed-top header-animated">
+      <nav class="navbar navbar-expand-lg navbar-light py-3">
+        <div class="container"><a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="knwlde" width="150"></a>
+          <button class="navbar-toggler navbar-toggler-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <!-- 链接 --><a class="nav-link active" href="index.html">主页</a>
+              </li>
+              <li class="nav-item">
+                <!-- 链接 --><a class="nav-link" href="about.html">关于我们</a>
+              </li>
+              <li class="nav-item me-2">
+                <!-- 链接 --><a class="nav-link" href="contact.html">联系我们</a>
+              </li>
+              <li class="nav-item">             
+                <button class="btn btn-primary" type="button" data-bs-target="#quoteForm" data-bs-toggle="modal">项目投递</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- 获取报价模块 -->
+    <div class="modal fade" id="quoteForm" tabindex="-1" role="dialog" aria-labelledby="quoteForm" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content p-md-3">
+          <div class="modal-header border-0">
+            <h4 class="modal-title">投递<span class="text-primary">项目</span></h4>
+            <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form action="#">
+              <div class="row gy-3">
+                <div class="col-lg-6">
+                  <label class="form-label text-sm" for="firstname">姓<span class="text-primary ms-1">&#42;</span></label>
+                  <input class="form-control" id="firstname" type="text" placeholder="输入您的姓" required>
+                </div>
+                <div class="col-lg-6">
+                  <label class="form-label text-sm" for="lastname">名字<span class="text-primary ms-1">&#42;</span></label>
+                  <input class="form-control" id="lastname" type="text" placeholder="输入您的名字" required>
+                </div>
+                <div class="col-lg-12">
+                  <label class="form-label text-sm" for="email">电子邮箱<span class="text-primary ms-1">&#42;</span></label>
+                  <input class="form-control" id="email" type="email" placeholder="输入您的电子邮箱" required>
+                </div>
+                <div class="col-lg-6">
+                  <label class="form-label text-sm" for="phone">手机号码 <small class="fw-light small text-gray">可选</small></label>
+                  <input class="form-control" id="phone" type="tel" placeholder="输入您的手机号码">
+                </div>
+                <div class="col-lg-6">
+                  <label class="form-label text-sm" for="projecttype">项目类型<span class="text-primary ms-1">&#42;</span></label>
+                  <input class="form-control" id="projecttype" type="text" placeholder="输入您的项目类型" required>
+                </div>
+                <div class="col-lg-6">
+                  <label class="form-label text-sm" for="budget">预计预算<span class="text-primary ms-1">&#42;</span></label>
+                  <input class="form-control" id="budget" type="text" placeholder="输入您的预估预算" required><small class="form-text text-gray-500 ms-3">项目预算以¥为单位</small>
+                </div>
+                <div class="col-lg-6">
+                  <label class="form-label text-sm" for="timeframe">时间框架<span class="text-primary ms-1">&#42;</span></label>
+                  <input class="form-control" id="timeframe" type="text" placeholder="项目的最大时间" required>
+                </div>
+                <div class="col-lg-12">
+                  <label class="form-label text-sm" for="projectdetail">项目详情<span class="text-primary ms-1">&#42;</span></label>
+                  <textarea class="form-control" id="projectdetail" rows="5" placeholder="提供关于您的项目的简短简介" required></textarea>
+                </div>
+                <div class="col-lg-12">
+                  <button class="btn btn-primary" type="submit">提交您的请求</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 主体部分 -->
+    <section class="hero hero-home with-pattern d-flex align-items-center py-5">
+      <div class="container py-5 mt-5">
+        <div class="row align-items-center">
+          <div class="col-md-6 mb-5 mb-md-0">
+            <h1 class="mb-3">伟大的 <span class="text-primary">公司 </span>建立在伟大的产品之上</h1>
+            <p class="text-muted">这是一种美丽的爱情，因此它具有永恒的魅力，它的直经则是巨大的.</p>
+          </div>
+          <div class="col-md-5 ml-auto">
+            <div class="img-gradient img-gradient-right"><img class="img-fluid shadow rounded" src="img/a-book-1771073_1920.jpg" alt=""></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-5">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2>我们是一个充满活力的团队，由创新人士和营销专家组成.</h2>
+          </div>
+          <div class="col-lg-6"> 
+            <p class="text-muted">这里是knwlde(星祁教育科技)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pb-5">
+      <div class="container pb-5">
+        <div class="row gy-3">
+          <div class="col-lg-4">
+            <div class="d-flex">
+              <div class="icon-block rounded-circle"><i class="fas fa-check"></i></div>
+              <div class="ms-3">
+                <h5>不知道是什么</h5>
+                <p class="text-sm text-muted">暂定</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="d-flex">
+              <div class="icon-block rounded-circle"><i class="fas fa-check"></i></div>
+              <div class="ms-3">
+                <h5>暂定</h5>
+                <p class="text-sm text-muted">暂定</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="d-flex">
+              <div class="icon-block rounded-circle"><i class="fas fa-check"></i></div>
+              <div class="ms-3">
+                <h5>暂定</h5>
+                <p class="text-sm text-muted">暂定</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pb-5">
+      <div class="container pb-5">
+        <div class="card shadow text-center map-bg">
+          <div class="card-body p-lg-5">
+            <div class="p-4">
+              <div class="row mb-5">
+                <div class="col-lg-7 mx-auto">
+                  <p class="h6 text-primary text-uppercase">暂定</p>
+                  <h2>暂定</h2>
+                  <p class="text-muted">暂定.</p>
+                </div>
+              </div>
+              <div class="row gy-3">
+                <div class="col-lg-4">
+                  <svg class="svg-icon text-primary mb-4 svg-icon-big svg-icon-light">
+                    <use xlink:href="#quality-1"> </use>
+                  </svg>
+                  <h5>暂定</h5>
+                  <p class="text-muted mb-0">暂定.</p>
+                </div>
+                <div class="col-lg-4">
+                  <svg class="svg-icon text-primary mb-4 svg-icon-big svg-icon-light">
+                    <use xlink:href="#sales-up-1"> </use>
+                  </svg>
+                  <h5>暂定</h5>
+                  <p class="text-muted mb-0">暂定.</p>
+                </div>
+                <div class="col-lg-4">
+                  <svg class="svg-icon text-primary mb-4 svg-icon-big svg-icon-light">
+                    <use xlink:href="#shield-security-1"> </use>
+                  </svg>
+                  <h5>暂定</h5>
+                  <p class="text-muted mb-0">暂定.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="pb-5">
+      <div class="container pb-5">
+        <div class="row">
+          <div class="col-lg-5 mx-auto mb-5 mb-lg-0 d-flex flex-column">
+            <div class="numeric-block order-2 order-lg-1 mb-lg-5">
+              <div class="numeric-block-count">1</div>
+              <p class="text-muted text-uppercase mb-2">暂定</p>
+              <h3>暂定</h3>
+              <p class="text-muted py-3">暂定.</p><a class="btn btn-primary" href="#!">暂定</a>
+            </div><img class="flex-grow-0 img-fluid shadow rounded order-1 order-lg-2 mb-5 mb-lg-0" src="img/demo-img-6.jpg" alt="">
+          </div>
+          <div class="col-lg-5 mx-auto d-flex flex-column"><img class="flex-grow-0 img-fluid shadow rounded mb-5" src="img/demo-img-2.jpg" alt="">
+            <div class="numeric-block">
+              <div class="numeric-block-count">2</div>
+              <p class="text-muted text-uppercase mb-2">暂定</p>
+              <h3>暂定</h3>
+              <p class="text-muted py-3">暂定.</p><a class="btn btn-primary" href="#!">暂定</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-5 bg-primary map-bg text-white">
+      <div class="container text-center py-5">
+        <div class="row mb-4">
+          <div class="col-lg-7 mx-auto">
+            <p class="h6 text-uppercase">暂定</p>
+            <h2>暂定</h2>
+            <p>暂定.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="card border-0 card-hover-bg">
+              <div class="card-body p-lg-5">
+                <svg class="svg-icon svg-icon-big svg-icon-light mb-4">
+                  <use xlink:href="#mental-health-1"> </use>
+                </svg>
+                <h4>暂定 </h4>
+                <p class="text-sm mb-0">暂定</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card border-0 card-hover-bg">
+              <div class="card-body p-lg-5">
+                <svg class="svg-icon svg-icon-big svg-icon-light mb-4">
+                  <use xlink:href="#paper-stack-1"> </use>
+                </svg>
+                <h4>暂定 </h4>
+                <p class="text-sm mb-0">暂定</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card border-0 card-hover-bg">
+              <div class="card-body p-lg-5">
+                <svg class="svg-icon svg-icon-big svg-icon-light mb-4">
+                  <use xlink:href="#design-1"> </use>
+                </svg>
+                <h4>暂定 </h4>
+                <p class="text-sm mb-0">暂定</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-5">
+      <div class="container py-5">
+        <div class="row text-center mb-5">
+          <div class="col-lg-7 mx-auto">
+            <p class="h6 text-uppercase text-primary">项目展示</p>
+            <h2 class="mb-3">这里会展示我的创业项目，如果您投递的项目我感兴趣也会给到展示机会</h2>
+            <p class="text-muted mb-4">让我们一起去创造.</p>
+            </ul><a class="btn btn-primary" href="#!">查看更多</a>
+          </div>
+        </div>
+        <div class="row align-items-center gx-lg-0 gy-4">
+          <div class="col-lg-4">
+            <div class="card shadow">
+              <div class="card-body text-center py-5 p-lg-5">
+                <img src="#" alt="项目logo" width="100" height="100">
+                <p>  </p>
+                <p class="h5 mb-2 text-uppercase">暂定</p>
+                <p class="text-sm text-gray">暂定</p>
+                <ul class="list-unstyled mb-4 text-muted">
+                  <li class="mb-1">暂定 </li>
+                  <li class="mb-1">暂定 &amp; 暂定 </li>
+                  <li class="mb-1">暂定 </li>
+                  <li class="mb-1">暂定 </li>
+                </ul><a class="btn btn-primary" href="#!">查看详情</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card shadow bg-primary text-white bg-pattern bg-v-wide z-index-20">
+              <div class="card-body text-center py-5 p-lg-5 z-index-10">
+                <img src="img/knwlde(2).png" alt="项目logo" width="100" height="100">
+                <p>  </p>
+                <p class="h5 mb-2 text-uppercase">星祁教育科技</p>
+                <p class="text-sm">安徽省/合肥市&ensp;&ensp;未融资&ensp;&ensp;2024-1-01</p>
+                <ul class="list-unstyled mb-4">
+                  <li class="mb-1">一句话亮点:<br />全方位的简单的学习平台，资料全面，提供给用户或企业定制服务.</li>
+                  <li class="mb-1">暂定 &amp; 暂定 </li>
+                  <li class="mb-1">暂定 </li>
+                  <li class="mb-1">暂定 </li>
+                </ul><a class="btn btn-light bg-white text-primary" href="#!">查看详情</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="card shadow">
+              <div class="card-body text-center py-5 p-lg-5">
+                <img src="#" alt="项目logo" width="100" height="100">
+                <p>  </p>
+                <p class="h5 mb-2 text-uppercase">暂定</p>
+                <p class="text-sm text-gray">暂定</p>
+                <ul class="list-unstyled mb-4 text-muted">
+                  <li class="mb-1">暂定 </li>
+                  <li class="mb-1">暂定 &amp; 暂定 </li>
+                  <li class="mb-1">暂定 </li>
+                  <li class="mb-1">暂定 </li>
+                </ul><a class="btn btn-primary" href="#!">查看详情</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-light py-5">           
+      <div class="container py-5 text-center">
+        <div class="row">
+            <p class="h6 text-uppercase text-primary">通讯</p>
+            <h2 class="mb-3">通过我们的实时通讯了解有用的消息和提示</h2>
+            <p class="text-muted mb-5">告诉我您的邮箱地址，我们会为您第一时间推送关于我的消息.</p>
+            <form class="p-2 bg-white rounded shadow-sm">
+              <div class="input-group p-1">
+                <input class="form-control border-0 shadow-0" type="email" placeholder="输入您的电子邮箱">
+                <button class="btn btn-primary rounded ms-1" type="submit">订阅</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-5">
+      <div class="container pt-5">
+        <div class="row">
+          <div class="col-lg-7 mx-auto text-center">
+            <p class="h6 text-uppercase text-primary">我的期望和我的留言</p>
+            <h2>期望和目标</h2>
+            <p class="text-muted mb-5">我不知道我能力怎么样我也不知道我未来怎么样，但还是要有目标的.</p>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-lg-6 mb-5 mb-lg-0">
+            <div class="swiper testimonials-slider">
+              <div class="swiper-wrapper"> 
+                <div class=" mb-4 pb-2">
+                  <figure>
+                    <blockquote class="blockquote border-0 p-0 mb-4 pb-2">
+                      <p class="blockquote-text text-muted fs-6 p-4"> <span class="d-inline-block p-3">  .</span></p>
+                    </blockquote>
+                    <figcaption>
+                      <div class="d-flex align-items-center">
+                        <div class="flex-shrink-0"><img class="rounded-circle shadow-sm" src="img/头像.jpg" alt="" width="50"></div>
+                        <div class="ms-3">
+                          <h5 class="text-dark mb-0">杨昊宇</h5>
+                          <cite class="fst-normal text-gray">knwlde  创始人</cite>
+                        </div>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </div>
+              </div>
+              <div class="swiper-pagination text-start"></div>
+            </div>
+          </div>
+          <div class="col-lg-5 ms-auto">
+            <div class="row gy-4">
+              <div class="col-6">
+                <div class="card shadow">
+                  <div class="card-body text-center">
+                    <svg class="svg-icon text-primary mb-3">
+                      <use xlink:href="#user-1"> </use>
+                    </svg>
+                    <h3 class="mb-1">20万</h3>
+                    <p class="text-muted mb-0">日活跃用户</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="card shadow">
+                  <div class="card-body text-center">
+                    <svg class="svg-icon text-primary mb-3">
+                      <use xlink:href="#destination-map-1"> </use>
+                    </svg>
+                    <h3 class="mb-1">50万</h3>
+                    <p class="text-muted mb-0">全球注册用户</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="card shadow">
+                  <div class="card-body text-center">
+                    <svg class="svg-icon text-primary mb-3">
+                      <use xlink:href="#quality-1"> </use>
+                    </svg>
+                    <h3 class="mb-1">暂无</h3>
+                    <p class="text-muted mb-0">............</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="card shadow">
+                  <div class="card-body text-center">
+                    <svg class="svg-icon text-primary mb-3">
+                      <use xlink:href="#sales-up-1"> </use>
+                    </svg>
+                    <h3 class="mb-1">90%</h3>
+                    <p class="text-muted mb-0">客户满意度</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="map-bg">
+      <div class="container py-5 border-bottom z-index-20 position-relative">
+        <div class="row pt-5 gy-4">
+          <div class="col-lg-3 col-md-6"><img class="mb-3" src="img/logo.png" alt="" width="150">
+            <ul class="list-unstyled text-muted">
+              <h6 class="fst-normal text-gray">致力打造一个全面的还简单易懂的学习平台，我的目标少不了你们的支持</h6>
+              <li><a class="reset-anchor text-sm" href="mailto:jett@knwlde.cn">电子邮箱 : jett@knwlde.cn</a></li>
+              <li><a class="reset-anchor text-sm" href="tel:+86 16651471536">手机号码 : +86  16651471536</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4>关于</h4>
+            <ul class="list-unstyled text-muted mb-0">
+              <li class="mb-1"><a class="text-sm reset-anchor" href="#!">关于我</a></li>
+              <li class="mb-1"><a class="text-sm reset-anchor" href="#!">关于knwlde</a></li>
+              <li class="mb-1"><a class="text-sm reset-anchor" href="#!">加入我们</a></li>
+              <li class="mb-1"><a class="text-sm reset-anchor" href="#!">商务合作</a></li>
+              <li class="mb-1"><a class="text-sm reset-anchor" href="#!">项目投递</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4>帮助</h4>
+            <ul class="list-unstyled text-muted mb-0">
+              <li class="mb-1"><a class="text-sm reset-anchor" href="#!">支持中心</a></li>
+              <li class="mb-1"><a class="text-sm reset-anchor" href="#!">客户支持</a></li>
+              <li class="mb-1"><a class="text-sm reset-anchor" href="#!">关于我们</a></li>
+              <li class="mb-1"><a class="text-sm reset-anchor" href="#!">版权</a></li>
+              <li class="mb-1"><a class="text-sm reset-anchor" href="#!">热门活动</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-4">
+            <h4>我们的展望</h4>
+            <ul class="list-unstyled text-muted mb-0">
+              <li class="mb-1"><a class="text-sm reset-anchor" href="#!">支持中心</a></li>
+              <li class="mb-1"><a class="text-sm reset-anchor" href="#!">客户支持</a></li>
+              <li class="mb-1"><a class="text-sm reset-anchor" href="#!">关于我们</a></li>
+              <li class="mb-1"><a class="text-sm reset-anchor" href="#!">版权</a></li>
+              <li class="mb-1"><a class="text-sm reset-anchor" href="#!">热门活动</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="container py-4 z-index-20 position-relative">
+        <div class="row text-center">
+          <div class="col-lg-6 p-lg-0 text-lg-start">
+            <p class="text-muted text-sm mb-0">© 2024 <a target="_blank" href="about.html"title="关于我们" class="text-primary reset-anchor">星祁教育科技</a>   版权所有.</p>
+          </div>
+          <div class="col-lg-6 p-lg-0 text-lg-end">
+            <p class="text-muted text-sm mb-0"><a target="_blank" href="https://beian.miit.gov.cn/#/Integrated/index" title="网站备案" class="text-primary reset-anchor">皖ICP备2024034563号-1</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- 滚动顶部按钮 -->
+    <div class="scroll-top-btn" id="scrollTop"><i class="fas fa-long-arrow-alt-up"></i><span class="fw-bold text-uppercase small">点击到顶部</span></div>
+    <!-- JavaScript 文件 -->
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="vendor/modal-video/js/modal-video.min.js"></script>
+    <script src="js/front.js"></script>
+    <script>
+      // ------------------------------------------------------- //
+      //   注入 SVG Sprite - 
+      //   在此处查看 
+      //   https://css-tricks.com/ajaxing-svg-sprite/
+      // ------------------------------------------------------ //
+      function injectSvgSprite(path) {
+      
+          var ajax = new XMLHttpRequest();
+          ajax.open("GET", path, true);
+          ajax.send();
+          ajax.onload = function(e) {
+          var div = document.createElement("div");
+          div.className = 'd-none';
+          div.innerHTML = ajax.responseText;
+          document.body.insertBefore(div, document.body.childNodes[0]);
+          }
+      }
+      // this is set to BootstrapTemple website as you cannot 
+      // inject local SVG sprite (using only 'icons/orion-svg-sprite.svg' path)
+      // while using file:// protocol
+      // pls don't forget to change to your domain :)
+      injectSvgSprite('icons/orion-svg-sprite.svg'); 
+      
+    </script>
+    <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  </body>
+</html>
